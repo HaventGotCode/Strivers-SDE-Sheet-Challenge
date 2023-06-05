@@ -1,8 +1,10 @@
 package com.practice.array;
 
+import com.practice.tags.difficulty.Medium;
+import com.practice.tags.resources.Creek300;
 import com.practice.tags.resources.StriverSheetArrays;
 
-public class SetMatrixZeroes73 implements StriverSheetArrays {
+public class SetMatrixZeroes73 implements Medium, StriverSheetArrays, Creek300 {
     public static void main(String[] args) {
         SetMatrixZeroes73 obj = new SetMatrixZeroes73();
         int[][] matrix1 = {{0, 1, 2, 0}, {3, 4, 5, 2}, {1, 3, 1, 5}};
